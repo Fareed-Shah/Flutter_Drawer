@@ -20,7 +20,21 @@ class _Drawer_ScreenState extends State<Drawer_Screen> {
         ),
         centerTitle: true,
     ),
-    drawer: My_Drawer()
+    
+    bottomNavigationBar:
+    BottomNavigationBar(items:
+    [
+      BottomNavigationBarItem(
+        icon: Icon(Icons.home),
+        label: 'Home'),
+        BottomNavigationBarItem(
+        icon: Icon(Icons.feed),
+        label: 'Feed'),
+    ]
+    ),
+    
+    drawer: My_Drawer(),
+    
   );
   }
 }

@@ -14,10 +14,12 @@ class _My_DrawerState extends State<My_Drawer> {
   @override
   Widget build(BuildContext context) {
    return Drawer(
+    
     child: 
      Column(
         children: [
           UserAccountsDrawerHeader(
+            
             accountName: Text('Fareed Shah'), accountEmail: Text('syedfareed667@gmail.com'),
             currentAccountPicture: CircleAvatar(
                backgroundImage: AssetImage('images/fareed.JPG'),
