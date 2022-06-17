@@ -23,17 +23,22 @@ class _Drawer_ScreenState extends State<Drawer_Screen> {
     
     bottomNavigationBar:
     BottomNavigationBar(
-      selectedFontSize: 24.0,
-      iconSize: 30.0,
-      unselectedFontSize: 20.0,
+      currentIndex: 1,
+      selectedFontSize: 17.0,
+      // selectedItemColor: Colors.red,
+      iconSize: 25.0,
+      // unselectedFontSize: 20.0,
 
       items:
     [
       BottomNavigationBarItem(
         icon: Icon(Icons.home),
+        backgroundColor: Colors.red,
         label: 'Home'),
+        
         BottomNavigationBarItem(
         icon: Icon(Icons.feed),
+        backgroundColor: Colors.blue,
         label: 'Feed'),
     ]
     ),
