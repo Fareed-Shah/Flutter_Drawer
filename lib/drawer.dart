@@ -22,8 +22,9 @@ class _Drawer_ScreenState extends State<Drawer_Screen> {
         centerTitle: true,
     ),
     
-    bottomNavigationBar: My_BottomNavigationBar() ,
-    
+    bottomNavigationBar: My_BottomNavigationBar(
+      
+    ) ,    
     drawer: My_Drawer(),
     
   );
