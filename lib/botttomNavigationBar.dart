@@ -30,8 +30,7 @@ class _My_BottomNavigationBarState extends State<My_BottomNavigationBar> {
   Widget build(BuildContext context) {
     return    
          Scaffold(                
-          appBar: AppBar(            
-          ),     
+          appBar: AppBar(title: Text('Bottom Navigation Bar'),),     
           body: screens[currentindex],
            bottomNavigationBar : BottomNavigationBar(         
             currentIndex:  currentindex, 
